@@ -1,6 +1,8 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import Header from "./components/header";
+import Footer from "./components/footer";
 import "./App.css";
 import {
   Container,
@@ -15,17 +17,9 @@ import {
 function App() {
   return (
     <>
-      <div className="row bg-danger">
-        <div className="col-md-4">
-          <div className="logo">Logo</div>
-        </div>
-        <div className="col-md-4">
-          <div className="">Logo</div>
-        </div>
-        <div className="col-md-4">
-          <div className="">Logo</div>
-        </div>
-      </div>
+      <Header />
+
+      <Footer />
     </>
   );
 }
